@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHREEJI STEELS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1581090700227-1e8e8f9f1c3f');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+    section {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      margin: 20px;
+      border-radius: 10px;
+    }
+    .products ul {
+      list-style: none;
+      padding: 0;
+    }
+    .products li {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    form input, form textarea {
+      width: 90%;
+      max-width: 500px;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #f09819;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .whatsapp-button, .call-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .whatsapp-button {
+      background-color: #25D366;
+      color: white;
+    }
+    .call-button {
+      background-color: #007bff;
+      color: white;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.3);
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+      .whatsapp-button, .call-button {
+        width: 80%;
+        display: block;
+        margin: 10px auto;
+      }
+      form input, form textarea {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SHREEJI STEELS</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to SHREEJI STEELS – your trusted partner in high-quality steel and iron products. We are committed to providing durable and reliable materials for construction and industrial needs.</p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <ul>
+      <li>TMT Bars</li>
+      <li>Angles</li>
+      <li>Channels</li>
+      <li>Beams</li>
+      <li>Sheets</li>
+      <li>Pipes</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required /><br />
+      <input type="email" name="email" placeholder="Your Email" required /><br />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br />
+      <button type="submit">Send Message</button>
+    </form>
+    <a class="whatsapp-button" href="https://wa.me/919999999999" target="_blank">Chat on WhatsApp</a>
+    <a class="call-button" href="tel:+919999999999">Call Us</a>
+  </section>
+
+  <footer>
+    &copy; 2025 SHREEJI STEELS. All rights reserved.
+  </footer>
+</body>
+</html>
